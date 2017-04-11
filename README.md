@@ -16,6 +16,10 @@ To run code:
 ```sh
 python polarity_analyser.py
 ```
+### File descriptions
+
+```inc``` -  contains words that increases polarity of text.Ex 'very'  
+
 Text is negative in nature if polarity is negative else text is positive in nature
 
 
