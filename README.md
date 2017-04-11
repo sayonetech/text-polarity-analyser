@@ -18,7 +18,18 @@ python polarity_analyser.py
 ```
 ### File descriptions
 
-```inc``` -  contains words that increases polarity of text.Ex 'very'  
+```inc``` -  contains words that increases polarity of text.Ex word 'very' - Here 'very good' has more positive polarity than 'good'
+
+```dec``` - contains words that decreases polarity of text.Ex word 'barely' - Here 'barely good' has less positive polarity than 'good'
+
+```inv``` - contains inverse words such as 'not'
+
+Add relavent words to above files to increase the accuracy
+
+```pos``` - contains positive words
+```neg``` - contains neagative words
+
+
 
 Text is negative in nature if polarity is negative else text is positive in nature
 
