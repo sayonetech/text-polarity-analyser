@@ -2,10 +2,8 @@
 import re
 import mmap
 
-from nltk.tokenize import RegexpTokenizer, sent_tokenize, PunktSentenceTokenizer
-from nltk.corpus import webtext, stopwords, wordnet, treebank
-from nltk.stem import PorterStemmer, LancasterStemmer, WordNetLemmatizer
-from nltk.tag import DefaultTagger, UnigramTagger
+from nltk.tokenize import RegexpTokenizer
+from nltk.corpus import wordnet
 
 
 def tokenize_words(text):
