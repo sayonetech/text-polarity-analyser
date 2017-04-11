@@ -5,10 +5,10 @@ To find the polarity of a text using NLTK.
 ### Tech
 http://www.nltk.org/
 
-## Installation
+## Requirements
 
 ```sh
-$ pip install -r requirements.txt
+nltk version 3.0 or above
 ```
 
 ### How to use?
@@ -16,7 +16,7 @@ To run code:
 ```sh
 python polarity_analyser.py
 ```
-If polarity is negative value then text is negative in nature else if polarity is positive its is positive in nature.  
+Text is negative in nature if polarity is negative else text is positive in nature
 
 
 
